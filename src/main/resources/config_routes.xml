@@ -1,0 +1,7 @@
+<routes xmlns="http://camel.apache.org/schema/spring">
+    <!-- here we define the bar route -->
+    <route id="main_route">
+        <from uri="file://C:/Users/stafo/IdeaProjects/from_dir?preMove=inprogress&amp;move=.done&amp;moveFailed=.error"/>
+        <to uri="file://C:/Users/stafo/IdeaProjects/to_dir"/>
+    </route>
+</routes>
